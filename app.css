@@ -1,0 +1,130 @@
+html,
+body {
+  width: full-width; height: full-width;
+  background-color: #b5c9f2;
+  box-sizing: border-box;
+  box-shadow: 10px 10px grey;
+}
+
+.header {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2e4b84;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 375px) {
+  .header {
+    color: #2e4b84;
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+}
+
+
+.bodyContent {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  margin: 8px;
+  background-color: white;
+}
+
+.topBanner {
+  position: relative;
+  background-color:#D5E2FC;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 40px;
+  margin-bottom: 30px;
+}
+
+.choices {
+  color:#474745;
+  margin-right: 15px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.reload {
+  right: 20px;   top: 20px;
+  font-size: 45px;
+  cursor: default;
+  position: absolute;
+}
+
+.time {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  position: absolute;
+  right: 20px; 
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.content div {
+  margin: 10px;
+}
+
+.warning {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #f46464;
+}
+
+.warningImg {
+  padding: 10px;
+}
+
+.warningMsg {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #f46464;
+  margin-bottom: 15px;
+}
+
+
+.selectedChoice {
+  margin-right: 30px;
+  margin-left: 30px;
+  padding: 10px;
+  border-radius: 15px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;
+  background-color: white;
+}
+
+
+.currentBox {
+  background-color: #f7f5d4;
+  height: 275px; width: 260px; border-radius: 18px;
+  padding: 32px; margin: 32px; 
+  text-align: center;   align-items: center;
+  display: flex; 
+  flex-direction: column; justify-content: space-around;
+}
+.forecastBox {
+  background-color: #f7f5d4;
+  height: 500px; width: 250px; border-radius: 18px;
+  padding: 32px; margin: 32px; 
+  text-align: center;  align-items: center;
+  display: flex;
+  flex-direction: column; justify-content: space-around;
+}
+
+.cancel {
+  align-self: flex-end;
+}
+
+.location {
+  font-weight: bolder;
+  font-size: 1.3em;
+}
+
+
